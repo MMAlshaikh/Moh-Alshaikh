@@ -7,21 +7,21 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f0f0f0;
+      background-color: #f8f9fa;
       margin: 0;
     }
     header {
-      background-color: #3498db;
+      background-color: #007bff;
       color: white;
-      padding: 20px 0;
+      padding: 20px;
       text-align: center;
     }
     nav ul {
+      list-style-type: none;
       display: flex;
       justify-content: center;
-      list-style-type: none;
-      padding: 0;
       gap: 20px;
+      padding: 0;
     }
     nav a {
       color: white;
@@ -34,18 +34,16 @@
     }
     #gallery img {
       width: 250px;
-      height: 160px;
-      object-fit: cover;
+      height: auto;
       margin: 10px;
-      border-radius: 8px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
     footer {
-      background-color: #222;
+      background-color: #343a40;
       color: white;
       text-align: center;
-      padding: 20px 0;
-      margin-top: 40px;
+      padding: 20px;
     }
   </style>
 </head>
@@ -66,29 +64,25 @@
 
   <section id="about">
     <h2>About the Event</h2>
-    <p>We're celebrating a wonderful occasion, and you're on the guest list! Expect good food, music, fun activities, and amazing company. We can't wait to see you there.</p>
+    <p>We're celebrating a wonderful occasion, and you're invited! Expect great food, music, and joy!</p>
   </section>
 
   <section id="video">
     <h2>Watch This!</h2>
-    <p>Here's a sneak peek of what you can expect:</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="Event Video" frameborder="0" allowfullscreen></iframe>
   </section>
 
   <section id="gallery">
     <h2>Photo Gallery</h2>
-    <div>
-      <img src="https://via.placeholder.com/250x160?text=Photo+1" alt="Photo 1">
-      <img src="https://via.placeholder.com/250x160?text=Photo+2" alt="Photo 2">
-      <img src="https://via.placeholder.com/250x160?text=Photo+3" alt="Photo 3">
-      <img src="https://via.placeholder.com/250x160?text=Photo+4" alt="Photo 4">
-    </div>
+    <img src="https://picsum.photos/id/237/300/200" alt="Gallery photo 1" />
+    <img src="https://picsum.photos/id/1025/300/200" alt="Gallery photo 2" />
+    <img src="https://picsum.photos/id/1062/300/200" alt="Gallery photo 3" />
+    <img src="https://picsum.photos/id/1043/300/200" alt="Gallery photo 4" />
   </section>
 
   <footer id="contact">
     <h2>Contact</h2>
-    <p>If you have any questions, feel free to reach out: <br>
-    📧 mohammed.alshaikh@example.com</p>
+    <p>Email: mohammed.alshaikh@example.com</p>
     <p>&copy; 2025 Mohammed Alshaikh</p>
   </footer>
 
