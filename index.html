@@ -3,26 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>You're Invited!</title>
+  <title>Event Invitation by Mohammed Alshaikh</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f0;
       margin: 0;
-      padding: 0;
     }
     header {
-      background-color: #4CAF50;
+      background-color: #3498db;
       color: white;
-      padding: 20px;
+      padding: 20px 0;
       text-align: center;
     }
     nav ul {
-      list-style-type: none;
-      padding: 0;
       display: flex;
       justify-content: center;
-      gap: 15px;
+      list-style-type: none;
+      padding: 0;
+      gap: 20px;
     }
     nav a {
       color: white;
@@ -30,32 +29,32 @@
       font-weight: bold;
     }
     section {
-      padding: 20px;
-      margin: 20px;
-    }
-    footer {
-      background-color: #eee;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
     }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-    }
-    .gallery img {
-      width: 300px;
-      height: 200px;
+    #gallery img {
+      width: 250px;
+      height: 160px;
       object-fit: cover;
+      margin: 10px;
       border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>You're Invited!</h1>
-    <nav aria-label="Main Site Links">
+    <p>Join Mohammed Alshaikh for a special celebration 🎉</p>
+    <nav>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#video">Video</a></li>
@@ -65,29 +64,33 @@
     </nav>
   </header>
 
-  <main>
-    <section id="about">
-      <p>Welcome to our special event invitation page! Join us for a day full of fun and celebration.</p>
-    </section>
+  <section id="about">
+    <h2>About the Event</h2>
+    <p>We're celebrating a wonderful occasion, and you're on the guest list! Expect good food, music, fun activities, and amazing company. We can't wait to see you there.</p>
+  </section>
 
-    <section id="video">
-      <h2>Watch This!</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Event Video" frameborder="0" allowfullscreen></iframe>
-    </section>
+  <section id="video">
+    <h2>Watch This!</h2>
+    <p>Here's a sneak peek of what you can expect:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+  </section>
 
-    <section id="gallery">
-      <h2>Photo Gallery</h2>
-      <div class="gallery">
-        <img src="https://via.placeholder.com/300x200?text=Photo+1" alt="Gallery photo 1" />
-        <img src="https://via.placeholder.com/300x200?text=Photo+2" alt="Gallery photo 2" />
-        <img src="https://via.placeholder.com/300x200?text=Photo+3" alt="Gallery photo 3" />
-        <img src="https://via.placeholder.com/300x200?text=Photo+4" alt="Gallery photo 4" />
-      </div>
-    </section>
-  </main>
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div>
+      <img src="https://via.placeholder.com/250x160?text=Photo+1" alt="Photo 1">
+      <img src="https://via.placeholder.com/250x160?text=Photo+2" alt="Photo 2">
+      <img src="https://via.placeholder.com/250x160?text=Photo+3" alt="Photo 3">
+      <img src="https://via.placeholder.com/250x160?text=Photo+4" alt="Photo 4">
+    </div>
+  </section>
 
   <footer id="contact">
-    <p>Contact us at invitation@example.com</p>
+    <h2>Contact</h2>
+    <p>If you have any questions, feel free to reach out: <br>
+    📧 mohammed.alshaikh@example.com</p>
+    <p>&copy; 2025 Mohammed Alshaikh</p>
   </footer>
+
 </body>
 </html>
